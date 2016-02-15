@@ -17,10 +17,36 @@ namespace Console_Calculator
         public static void UserInput()
         {
             Console.WriteLine("Please Enter 1st Number");
-            int number = Convert.ToInt32(Console.ReadLine()); //Converts a specified value to a 32-bit signed integer.
+            int numberX = Convert.ToInt32(Console.ReadLine()); //Converts a specified value to a 32-bit signed integer.
 
             Console.WriteLine("Please Enter 2nd Number");
-            int numner = Convert.ToInt32(Console.ReadLine());
+            int numberY = Convert.ToInt32(Console.ReadLine());
+
+            int compute = Convert.ToInt32(Console.ReadLine());
+            switch (compute)
+            {
+                case 1:
+                    Console.WriteLine("Addition Total");
+                    Console.WriteLine(numberX + numberY);
+                    break;
+
+                case 2:
+                    Console.WriteLine("Minus Total");
+                    Console.WriteLine(numberX - numberY);
+                    break;
+
+
+                case 3:
+                    Console.WriteLine("Multiply Total");
+                    Console.WriteLine(numberX * numberY);
+                    break;
+
+                case 4:
+                    Console.WriteLine("Division Total");
+                    Console.WriteLine(numberX / numberY);
+                    break;
+            }
+            Console.ReadKey(true);
         }
 
         public static void AritheticOperators()
@@ -31,7 +57,61 @@ namespace Console_Calculator
             Console.WriteLine("Division " + " / ");
             Console.ReadLine();
 
+            int compute = Convert.ToInt32(Console.ReadLine());
+            switch (compute)
+            {
+                case 1:
+                    Console.WriteLine("Addition Total");
+                    Console.WriteLine();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Minus Total");
+                    Console.WriteLine();
+                    break;
+
+
+                case 3:
+                    Console.WriteLine("Multiply Total");
+                    Console.WriteLine();
+                    break;
+
+                case 4:
+                    Console.WriteLine("Division Total");
+                    Console.WriteLine();
+                    break;
+            }
+            Console.ReadKey(true);
         }
+
+        //public static void Computation()
+        //{
+        //    int compute = Convert.ToInt32(Console.ReadLine());
+        //    switch (compute)
+        //    {
+        //        case 1:
+        //            Console.WriteLine("Addition Total");
+        //            Console.WriteLine();
+        //            break;
+
+        //        case 2:
+        //            Console.WriteLine("Minus Total");
+        //            Console.WriteLine();
+        //            break;
+
+
+        //        case 3:
+        //            Console.WriteLine("Multiply Total");
+        //            Console.WriteLine();
+        //            break;
+
+        //        case 4:
+        //            Console.WriteLine("Division Total");
+        //            Console.WriteLine();
+        //            break;
+        //    }
+        //    Console.ReadKey(true);
+        //}
 
 
     }
