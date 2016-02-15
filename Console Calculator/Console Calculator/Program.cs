@@ -11,6 +11,7 @@ namespace Console_Calculator
         public static void Main(string[] args)
         {
             Program.UserInput();
+            Program.AritheticOperators();
         }
 
         public static void UserInput()
@@ -20,6 +21,15 @@ namespace Console_Calculator
 
             Console.WriteLine("Please Enter 2nd Number");
             int numner = Convert.ToInt32(Console.ReadLine());
+        }
+
+        public static void AritheticOperators()
+        {
+            Console.WriteLine("Addition "+" + ");
+            Console.WriteLine("Subtraction " + " - ");
+            Console.WriteLine("Multiplication " + " * ");
+            Console.WriteLine("Division " + " / ");
+            Console.ReadLine();
 
         }
 
