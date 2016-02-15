@@ -8,6 +8,9 @@ namespace Console_Calculator
 {
     public class Program
     {
+        public static int numberX;
+        public static int numberY;
+
         public static void Main(string[] args)
         {
             Program.UserInput();
@@ -15,13 +18,13 @@ namespace Console_Calculator
         }
 
         public static void UserInput()
-        {
+        {   
             Console.WriteLine("Please Enter 1st Number");
-            int numberX;
-            numberX= Convert.ToInt32(Console.ReadLine()); //Converts a specified value to a 32-bit signed integer.
+            //int numberX;
+            numberX = Convert.ToInt32(Console.ReadLine()); //Converts a specified value to a 32-bit signed integer.
 
             Console.WriteLine("Please Enter 2nd Number");
-            int numberY;
+            //int numberY;
             numberY = Convert.ToInt32(Console.ReadLine());
 
         }

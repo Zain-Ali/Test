@@ -10,7 +10,7 @@ namespace Console_Calculator
     {
         public void ComputationTotal()
         {
-            
+
             int compute = Convert.ToInt32(Console.ReadLine());
             switch (compute)
             {
