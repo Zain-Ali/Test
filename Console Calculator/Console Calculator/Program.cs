@@ -6,10 +6,23 @@ using System.Threading.Tasks;
 
 namespace Console_Calculator
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program.UserInput();
         }
+
+        public static void UserInput()
+        {
+            Console.WriteLine("Please Enter 1st Number");
+            int number = Convert.ToInt32(Console.ReadLine()); //Converts a specified value to a 32-bit signed integer.
+
+            Console.WriteLine("Please Enter 2nd Number");
+            int numner = Convert.ToInt32(Console.ReadLine());
+
+        }
+
+
     }
 }

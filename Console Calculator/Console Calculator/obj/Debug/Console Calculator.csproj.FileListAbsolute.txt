@@ -1,1 +1,7 @@
 C:\Users\Zain A\Documents\GitHub\GoogleHash\Console Calculator\Console Calculator\bin\Debug\Console Calculator.exe.config
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\bin\Debug\Console Calculator.exe.config
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\bin\Debug\Console Calculator.exe
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\bin\Debug\Console Calculator.pdb
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\obj\Debug\Console Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\obj\Debug\Console Calculator.exe
+C:\Users\Zain A\Documents\GitHub\Test\Console Calculator\Console Calculator\obj\Debug\Console Calculator.pdb
